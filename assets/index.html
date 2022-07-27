@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
    
 </head>
 <body>
@@ -18,56 +18,57 @@
         </div>
         <div class="search" id="search">
             <h2>Search for a City:</h2>
-            <input class="srchBar" type="text">
-            <button class="btn">Search</button>
+            <input class="srchBar" type="text" id="value">
+            <button class="btn" id="btn">Search</button>
             <div class="presist" id="presist"></div>
         </div>
         
             <div class="mainCast" id="mainCast">
         
-            <h2>hi</h2>
-        </div>
+                <h2 id="city">This is not finished!</h2>
+                <ul>
+                    <li class="main" id="main1">Temp:</li>
+                    <li class="main" id="main2">Wind:</li>
+                    <li class="main" id="main3">Humidity:</li>
+                    <li class="main" id="main4">UV Index:</li>
+                </ul>    
+            </div>
         <div class="cont">
-            <h3>5-Day Forecast:</h3>
+            <h3>5-Day-Forecast:</h3>
             <div class="card" id="card1">
                 
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="side">Temp:</li>
+                    <li class="side">Wind:</li>
+                    <li class="side">Humidity:</li>
                 </ul>
             </div>
             <div class="card" id="card2">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="side">Temp:</li>
+                    <li class="side">Wind:</li>
+                    <li class="side">Humidity:</li>         
                 </ul>
             </div>
             <div class="card" id="card3">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="side">Temp:</li>
+                    <li class="side">Wind:</li>
+                    <li class="side">Humidity:</li>
                 </ul>
             </div>
             <div class="card" id="card4">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="side">Temp:</li>
+                    <li class="side">Wind:</li>
+                    <li class="side">Humidity:</li>
                 </ul>
             </div>
             <div class="card" id="card5">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="side">Temp:</li>
+                    <li class="side">Wind:</li>
+                    <li class="side">Humidity:</li>
                 </ul>
             </div>
         </div>
@@ -78,7 +79,7 @@
    
 
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-<script src="./assets/js/app.js"></script>
+
+<script src="./js/app.js"></script>
+
 </html>
